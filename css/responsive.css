@@ -292,6 +292,11 @@
     font-size: 1rem;
   }
 
+  .footer__logo img {
+  margin: 0 auto;
+  display: block;
+}
+
   /* Why us */
   .why-us__grid {
     grid-template-columns: repeat(2, 1fr);
