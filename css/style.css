@@ -1192,10 +1192,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 3rem;
 }
 
+.footer__brand {
+  text-align: left;
+}
+
 .footer__logo {
-  margin-bottom: 1rem;
-  display: flex;
-  justify-content: center;
+  display: inline-block;
+  width: 160px;
 }
 
 .footer__tagline {

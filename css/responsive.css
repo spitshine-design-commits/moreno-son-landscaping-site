@@ -241,6 +241,14 @@
     text-align: center;
     gap: 2rem;
   }
+
+  .footer__logo {
+    margin: 0 auto;
+  }
+
+  .footer__brand {
+    text-align: center;
+  }
 }
 
 /* ---------- MOBILE (max-width: 600px) ---------- */
