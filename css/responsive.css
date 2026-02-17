@@ -26,8 +26,8 @@
     gap: 3rem;
   }
 
-  .reviews__grid {
-    grid-template-columns: repeat(2, 1fr);
+  .review-card {
+    flex: 0 0 calc((100% - 2rem) / 2);
   }
 
   .contact__wrapper {
@@ -157,10 +157,14 @@
   }
 
   /* Reviews */
-  .reviews__grid {
-    grid-template-columns: 1fr;
-    max-width: 550px;
-    margin: 0 auto;
+  .review-card {
+    flex: 0 0 100%;
+  }
+
+  .reviews__arrow {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
   }
 
   /* Contact */
