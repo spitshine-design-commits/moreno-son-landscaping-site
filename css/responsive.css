@@ -157,14 +157,32 @@
   }
 
   /* Reviews */
-  .review-card {
-    flex: 0 0 100%;
+  .reviews__carousel {
+    flex-wrap: wrap;
+  }
+
+  .reviews__track-wrapper {
+    order: 1;
+    flex-basis: 100%;
   }
 
   .reviews__arrow {
+    order: 2;
     width: 36px;
     height: 36px;
     font-size: 1rem;
+  }
+
+  .reviews__arrow--prev {
+    margin-left: calc(50% - 46px);
+  }
+
+  .reviews__arrow--next {
+    margin-right: calc(50% - 46px);
+  }
+
+  .review-card {
+    flex: 0 0 100%;
   }
 
   /* Contact */
