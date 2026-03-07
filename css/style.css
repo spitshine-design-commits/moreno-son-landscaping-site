@@ -627,7 +627,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: var(--radius);
   padding: 2.5rem 2rem;
   transition: var(--transition);
-  flex: 0 0 calc((100% - 4rem) / 3);
+  flex: 0 0 calc((100% - 2rem) / 2);
   display: flex;
   flex-direction: column;
 }
